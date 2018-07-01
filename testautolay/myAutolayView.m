@@ -38,27 +38,6 @@
 
 -(void)updateConstraints
 {
-    UIEdgeInsets padding=UIEdgeInsetsMake(25, 6, 52, 6);
-    
-    [_view_first mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_offset(padding.top);
-        make.left.mas_offset(padding.left);
-        make.right.mas_offset(-padding.right);
-        make.height.mas_equalTo(@100);
-    }];
-    
-    [_view_second mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(_view_first.mas_bottom).mas_offset(@1);
-        make.left.mas_equalTo(_view_first);
-        make.right.mas_equalTo(_view_first);
-        make.height.mas_equalTo(@50);
-    }];
-    [_view_third mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(_view_second.mas_bottom).mas_offset(@1);
-        make.left.mas_equalTo(_view_first);
-        make.right.mas_equalTo(_view_first);
-        make.bottom.mas_equalTo(self.mas_bottom).offset(-padding.bottom);
-    }];
     
     [super updateConstraints];
 }
