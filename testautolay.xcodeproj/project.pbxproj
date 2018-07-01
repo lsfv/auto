@@ -26,6 +26,7 @@
 		CD3F934120E86FF500453DD1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F933420E86FF500453DD1 /* View+MASAdditions.m */; };
 		CD3F934220E86FF500453DD1 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F933720E86FF500453DD1 /* ViewController+MASAdditions.m */; };
 		CD3F934520E8742E00453DD1 /* myAutolayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F934420E8742E00453DD1 /* myAutolayView.m */; };
+		CD3F934820E8B26000453DD1 /* tt.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F934720E8B26000453DD1 /* tt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		CD3F933720E86FF500453DD1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		CD3F934320E8742E00453DD1 /* myAutolayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myAutolayView.h; sourceTree = "<group>"; };
 		CD3F934420E8742E00453DD1 /* myAutolayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myAutolayView.m; sourceTree = "<group>"; };
+		CD3F934620E8B26000453DD1 /* tt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tt.h; sourceTree = "<group>"; };
+		CD3F934720E8B26000453DD1 /* tt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				CD3F930320E86FE600453DD1 /* Supporting Files */,
 				CD3F934320E8742E00453DD1 /* myAutolayView.h */,
 				CD3F934420E8742E00453DD1 /* myAutolayView.m */,
+				CD3F934620E8B26000453DD1 /* tt.h */,
+				CD3F934720E8B26000453DD1 /* tt.m */,
 			);
 			path = testautolay;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 				CD3F934520E8742E00453DD1 /* myAutolayView.m in Sources */,
 				CD3F934220E86FF500453DD1 /* ViewController+MASAdditions.m in Sources */,
 				CD3F933C20E86FF500453DD1 /* MASLayoutConstraint.m in Sources */,
+				CD3F934820E8B26000453DD1 /* tt.m in Sources */,
 				CD3F933F20E86FF500453DD1 /* NSArray+MASAdditions.m in Sources */,
 				CD3F933E20E86FF500453DD1 /* MASViewConstraint.m in Sources */,
 				CD3F933D20E86FF500453DD1 /* MASViewAttribute.m in Sources */,
