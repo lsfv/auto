@@ -9,10 +9,15 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property(nonatomic)myAutolayView *myview;
 @end
 
 @implementation ViewController
+
+-(void)loadView
+{
+    self.view=_myview=[myAutolayView new];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

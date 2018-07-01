@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "myAutolayView.h"
 
 @interface ViewController : UIViewController
-
 
 @end
 
